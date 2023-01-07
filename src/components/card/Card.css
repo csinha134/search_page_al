@@ -1,0 +1,77 @@
+.card {
+    background: #1F2025;
+    color: #fff;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 4px #3d3d3d, -2px -2px 4px #3d3d3d;
+}
+
+.card.blue {
+    background-color: #2f98f6;
+}
+
+.card .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card .left h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card .left h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card .left .stat {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card .left .stat .arrow {
+    font-size: 18px;
+    transform: rotate(-45deg);
+    color: #866DC6;
+}
+
+.card.blue .stat .arrow {
+    color: #fff;
+}
+
+.card .left .stat .arrow.red {
+    font-size: 18px;
+    transform: rotate(-45deg);
+    color: #E65C6A;
+}
+
+.card .left .stat h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #866DC6;
+}
+
+.card.blue .left .stat h4 {
+    color: #fff;
+}
+
+.card .left .stat h4.red {
+    color: #E65C6A;
+}
+
+.card .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
